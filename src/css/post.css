@@ -1,0 +1,121 @@
+.home {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  width: 100%;
+}
+.post {
+  position: relative;
+  display: flex;
+  flex-flow: column wrap;
+  margin: 1rem;
+  max-width: 40rem;
+  min-height: 25rem;
+  background-color: #fff;
+  border: .01rem solid #cccccc;
+}
+.post__header {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  padding: .7rem;
+  font-size: .8rem;
+  background-color: #f8f8f8;
+}
+/* header */
+.post__headerInfo {
+  display: flex;
+  flex-flow: column nowrap;
+  padding-left: .7rem;
+}
+.post__profilImg {
+  width: 2rem; height: 2rem;
+  margin: .1rem;
+  border-radius: 5rem;
+  box-shadow: 0 0 0 1.5px #ff8800;
+}
+.post__owner {
+  font-weight: 600;
+}
+.post__header .post__moreBtn {
+  margin-left: auto;
+}
+/* post content */
+.post__content {
+  display: flex;
+  flex-flow: inherit; /* inherit from post */
+  align-items: center;
+  padding: .5rem;
+}
+.post__img {
+  width: 100%;
+  height: 70%;
+  background-color: #000;
+  object-fit: cover;
+}
+.post__react {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  width: 100%;
+}
+.post__reactItem {
+  margin-left: auto;
+  color: #383838;
+  padding-right: .5rem;
+}
+.post__reactItem:last-child {
+  margin-left: auto;
+}
+.post__caption {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: baseline;
+  width: 100%;
+  margin-bottom: .3rem;
+}
+.post__caption small {
+  padding-right: .5rem;
+}
+/* post comments */
+.post__footer {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  height: fit-content;
+}
+.post__comments {
+  display: block;
+  padding: .5rem;
+}
+.post__comment {
+  width: 100%;
+}
+.post__comment .owner {
+  padding-right: .3rem;
+  font-weight: 500;
+}
+.post__formComment {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  width: 100%;
+  padding: .5rem;
+  margin-top: .5rem;
+  border-top: .01rem solid #cccccc;
+}
+.post__commentInput {
+  display: flex;
+  flex: 1 1 100%;
+  resize: vertical; /* textarea */
+  padding: .5rem;
+  border: none; outline: none;
+}
+.post__commentBtn {
+  display: flex;
+  flex: 1 0 auto;
+  padding: .5rem;
+  align-self: flex-end;
+  color: #0077ff;
+  text-decoration: none;
+}

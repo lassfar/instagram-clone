@@ -1,0 +1,33 @@
+.post__upload {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  min-width: 40rem;
+  padding: .7rem;
+  font-size: .8rem;
+}
+.post__upload .caption {
+  padding: .3rem; margin: .5rem 0;
+  display: flex;
+  flex: 1 1 100%;
+  border: .01rem solid #cccccc;
+  resize: vertical;
+}
+.post__upload .location {
+  padding: .3rem; margin: .5rem 0;
+  display: flex;
+  border: .01rem solid #cccccc; outline: none;
+  background-color: #fff;
+  width: 100%;
+}
+.post__upload .uploadBtn {
+  padding: .3rem; margin: .5rem 0;
+  font-weight: 700; font-size: 14px;
+  background-color: #1998ff; color: #fff;
+  border: none; border-radius: .2rem;
+  text-decoration: none;
+  text-align: center;
+}
+.progress {
+  min-width: 100%;
+}

@@ -1,0 +1,39 @@
+.sign {
+  position: relative;
+  display: flex;
+  align-items: center; justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+.sign__form {
+  position: relative;
+  display: flex;
+  flex-flow: column wrap;
+  padding: 2rem;
+  min-width: 17rem;
+  background-color: #fff;
+  border: .01rem solid #cccccc;
+}
+.sign__logo {
+  display: block;
+  margin: 0 0 1.5rem 0;
+  width: 12rem;
+  align-self: center;
+}
+.sign__input {
+  padding: .7rem; margin: .5rem;
+  background-color: #f8f8f8;
+  border: .01rem solid #cccccc; border-radius: .2rem;
+}
+.sign__input:focus {
+  border: .01rem solid #a5a5a5;
+  outline: none;
+}
+.sign__btn {
+  padding: .5rem; margin: .5rem;
+  font-weight: 700; font-size: 14px;
+  background-color: #1998ff; color: #fff;
+  border: none; border-radius: .2rem;
+  text-decoration: none;
+  text-align: center;
+}
